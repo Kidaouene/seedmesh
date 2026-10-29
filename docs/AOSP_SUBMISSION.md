@@ -17,7 +17,7 @@ Dans le formulaire, choisir le type **« Feature Request »** s'il est proposé 
 - **Une réponse ou une adoption est peu probable.** La plupart des demandes de fonctionnalité restent en priorité P3 ou P4 sans suite, et Google a déjà AICore, ML Kit GenAI et LiteRT. L'intérêt réaliste est de laisser une trace publique et d'obtenir d'éventuelles étoiles.
 - **Fortement recommandé avant l'envoi** : un **dépôt public** (GitHub) pour que le lien soit consultable. Une demande sans code consultable a encore moins de chances d'être lue.
 
-## 2. Message en anglais, prêt à coller (remplacer `<REPO_URL>`)
+## 2. Message en anglais, prêt à coller (remplacer `https://github.com/Kidaouene/seedmesh`)
 
 **Title**
 ```
@@ -49,7 +49,7 @@ Proposal
    interest, as an optional layer on top of AICore.
 
 Reference implementation (prototype, not Android-native yet)
-- SeedMesh: <REPO_URL> (Apache-2.0). SQLite cache + llama.cpp agent, Linux/Windows/Termux.
+- SeedMesh: https://github.com/Kidaouene/seedmesh (Apache-2.0). SQLite cache + llama.cpp agent, Linux/Windows/Termux.
 - Measured on an 8-vCPU x86 server, Qwen2.5-1.5B-Instruct Q4_K_M, llama.cpp b11921:
   cache hit ~89 ms vs ~4.0-4.2 s generation.
 - Proposed Android architecture: foreground service (declared FGS type), AIDL + ContentProvider
@@ -79,7 +79,7 @@ License: Apache-2.0. I am happy to adapt the library to Jetpack conventions if u
 2. Se connecter avec un compte Google sur https://issuetracker.google.com.
 3. Chercher les doublons : `componentid:192705 cache`, « on-device LLM cache », « AICore », issues ouvertes **et** fermées. S'il existe déjà une demande proche, **ajouter une étoile** et un commentaire court plutôt que d'en créer une nouvelle.
 4. Ouvrir https://issuetracker.google.com/issues/new?component=192705. Vérifier que le composant affiché est bien « Android Public Tracker › … › Framework » ; choisir le type « Feature Request » si le champ existe.
-5. Coller le titre et la description du §2, remplacer `<REPO_URL>`, relire, puis **Create**.
+5. Coller le titre et la description du §2, remplacer `https://github.com/Kidaouene/seedmesh`, relire, puis **Create**.
 6. Noter le numéro de l'issue et activer les notifications. Ne pas relancer de façon répétée. Sans réponse, c'est normal.
 7. Pas de Gerrit ni de CLA à cette étape. Ils ne seront utiles que si un ingénieur Google demande un patch.
 

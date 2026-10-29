@@ -1,6 +1,6 @@
 # Posts (BROUILLONS, rien n'est publié)
 
-Règles vérifiées le 2026-10-29. Remplacer `{REPO_URL}` par l'URL du dépôt public **avant** toute publication : sans dépôt, rien ne doit être publié.
+Règles vérifiées le 2026-10-29. Remplacer `https://github.com/Kidaouene/seedmesh` par l'URL du dépôt public **avant** toute publication : sans dépôt, rien ne doit être publié.
 
 | Fichier | Lieu | Texte IA autorisé ? | Ce que contient le fichier |
 |---|---|---|---|

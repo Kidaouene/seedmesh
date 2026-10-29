@@ -6,7 +6,7 @@
 
 Bonjour 'nal,
 
-SeedMesh ({REPO_URL}, licence Apache 2.0) met en cache les réponses d'un modèle local llama.cpp dans SQLite. Une question déjà posée, avec exactement les mêmes paramètres, revient en **~89 ms** au lieu de **4 à 4,2 s** de génération. Mesure faite sur un Xeon de 8 vCPU, avec Qwen2.5-1.5B-Instruct Q4_K_M et llama.cpp b11921.
+SeedMesh (https://github.com/Kidaouene/seedmesh, licence Apache 2.0) met en cache les réponses d'un modèle local llama.cpp dans SQLite. Une question déjà posée, avec exactement les mêmes paramètres, revient en **~89 ms** au lieu de **4 à 4,2 s** de génération. Mesure faite sur un Xeon de 8 vCPU, avec Qwen2.5-1.5B-Instruct Q4_K_M et llama.cpp b11921.
 
 **Ce qu'il y a dedans**
 - La clé est `sha256(prompt normalisé NFC | fichier du modèle | JSON canonique des paramètres)` ; implémentations Python et PowerShell 7 identiques.

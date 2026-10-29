@@ -8,7 +8,7 @@ tags: llm, llamacpp, reproducibility, abotwrotethis
 
 > This article was written with the help of an AI assistant. The measurements were run and checked on a real server; the project code was also AI-generated and tested.
 
-I built a small response cache for llama.cpp (SeedMesh, {REPO_URL}) and wanted to prove that "same input → same output". Setup:
+I built a small response cache for llama.cpp (SeedMesh, https://github.com/Kidaouene/seedmesh) and wanted to prove that "same input → same output". Setup:
 
 - Qwen2.5-1.5B-Instruct Q4_K_M (sha256 `6a1a2eb6…407e`), llama.cpp b11921, CPU only, 8-vCPU Xeon with AVX-512
 - seed 42, temp 0.0, top_p 0.9, top_k 40, repeat_penalty 1.1, 4 threads, chat template on

@@ -2,7 +2,7 @@
 Règles : projets nouveaux uniquement dans le mégathread ; déclarer l'usage de l'IA (le bot le demande) ; auto-promo : compte de ≥ 30 jours, ≤ 10 % de posts promotionnels, exception FLOSS si l'on reste actif dans les commentaires.
 
 **Comment:**
-> **SeedMesh** – self-hosted response cache for local LLMs (llama.cpp) — {REPO_URL} — Apache-2.0, no cloud required, no paywall.
+> **SeedMesh** – self-hosted response cache for local LLMs (llama.cpp) — https://github.com/Kidaouene/seedmesh — Apache-2.0, no cloud required, no paywall.
 >
 > **AI involvement:** the code and docs were generated with an AI assistant, then tested by me on a Linux server (19 Python tests + 5 PowerShell parity tests). Not yet tested on real Android hardware.
 >

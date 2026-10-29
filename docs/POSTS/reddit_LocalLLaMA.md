@@ -6,7 +6,7 @@ Prérequis : karma minimum du sub (règles d'avril 2026) ; être là pour répon
 **Body:**
 > **AI disclosure:** the code and this post were drafted with an AI assistant. I reviewed and tested it, and the numbers below come from real runs. Feel free to judge it on that basis.
 
-I wanted repeated prompts to my local model to return instantly and identically, on Linux, Windows (PowerShell 7) and Termux. So I built SeedMesh (Apache-2.0): {REPO_URL}
+I wanted repeated prompts to my local model to return instantly and identically, on Linux, Windows (PowerShell 7) and Termux. So I built SeedMesh (Apache-2.0): https://github.com/Kidaouene/seedmesh
 
 What it does:
 - Caches answers in SQLite (WAL). Key = sha256(NFC-normalized prompt | model file | canonical JSON of sampling params incl. seed, temp, top_p, top_k, repeat_penalty, system prompt). Python and PowerShell produce the same hash.

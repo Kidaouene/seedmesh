@@ -5,7 +5,7 @@
 **Body:**
 > AI disclosure: code and post drafted with an AI assistant; tested on Linux, **not yet on a phone**.
 
-SeedMesh ({REPO_URL}, Apache-2.0) caches llama.cpp answers in SQLite, so a repeated prompt returns in milliseconds instead of re-generating. The Termux-specific parts:
+SeedMesh (https://github.com/Kidaouene/seedmesh, Apache-2.0) caches llama.cpp answers in SQLite, so a repeated prompt returns in milliseconds instead of re-generating. The Termux-specific parts:
 - `install_termux.sh` (installs deps with `pkg`, builds llama.cpp from source), `seedmesh start|stop|status`
 - `android/termux_boot_seedmesh.sh` for **Termux:Boot** (takes `termux-wake-lock`, waits 20 s, starts services). Revert: delete the file.
 - `android/adb_tune.sh status|apply|revert`: disables the phantom process killer the documented way (Android 12: `device_config max_phantom_processes`; 12L+: `settings_enable_monitor_phantom_procs false`), with automatic backup and exact revert.

@@ -5,7 +5,7 @@
 
 ## Fiche de faits (Samir écrit lui-même titre et texte)
 - Titre : doit commencer par « Show HN: », sans majuscules ni points d'exclamation pour attirer l'œil. Contenu : nom + ce que ça fait.
-- Lien : {REPO_URL}. Le README doit permettre d'essayer en quelques commandes (`install_linux.sh`).
+- Lien : https://github.com/Kidaouene/seedmesh. Le README doit permettre d'essayer en quelques commandes (`install_linux.sh`).
 - Chiffres réels : hit ~89 ms contre 4,0-4,2 s ; 22-25 tok/s ; Qwen2.5-1.5B Q4_K_M ; llama.cpp b11921 ; Xeon 8 vCPU.
 - Point intéressant pour HN : le non-déterminisme mesuré à température 0 (2 écarts sur 5 régénérations).
 - Limites à citer : pas d'auth HTTP, pas testé sur téléphone, pas de TTL, prompts en clair, code généré par IA (le dire en premier commentaire).

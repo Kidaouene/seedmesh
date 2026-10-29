@@ -1,0 +1,12 @@
+SeedMesh
+Copyright 2026 KIDAOUENE Samir
+
+Ce produit est distribué sous licence Apache 2.0 (voir LICENSE).
+
+Composants tiers NON inclus dans cette archive, téléchargés par les scripts d'installation :
+- llama.cpp (ggml-org/llama.cpp), licence MIT, Copyright (c) 2023-2026 The ggml authors.
+  Build de référence : b11921 (commit 7a2e5aba9).
+- Modèle Qwen2.5-1.5B-Instruct (GGUF Q4_K_M, Qwen/Qwen2.5-1.5B-Instruct-GGUF), licence Apache 2.0, (c) Alibaba Cloud / équipe Qwen.
+  Le modèle n'est pas redistribué ; d'autres tailles Qwen2.5 ont d'autres licences (3B : Qwen Research License, non commerciale ;
+  72B : Qwen License) : vérifier la licence de tout modèle substitué.
+- Optionnel : sentence-transformers (Apache 2.0) et le modèle d'embeddings choisi (licence propre).

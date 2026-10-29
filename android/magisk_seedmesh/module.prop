@@ -1,0 +1,6 @@
+id=seedmesh
+name=SeedMesh launcher
+version=v0.1
+versionCode=1
+author=KIDAOUENE Samir
+description=Lance SeedMesh (Termux) au boot. Réglages optionnels réversibles désactivés par défaut. Ne modifie pas /system.

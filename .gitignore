@@ -1,0 +1,33 @@
+# Modèles et binaires
+*.gguf
+*.bin
+*.safetensors
+*.onnx
+llama.cpp/
+llama-*/
+models/
+# Données SeedMesh
+*.db
+*.db-wal
+*.db-shm
+*.sqlite*
+*.jsonl
+kv/
+*.kv
+data/
+# Logs, temporaires
+*.log
+logs/
+repro.json
+android/adb_tune.backup
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# Secrets
+.env
+*.key
+*.pem
+config.local.json

@@ -1,0 +1,11 @@
+{
+  "n_predict": 64,
+  "system": "Tu es un assistant concis. Réponds en français.",
+  "prompts": [
+    "Quelle est la capitale de la France ?",
+    "Cite trois fleuves de France.",
+    "Explique en une phrase ce qu'est une base de données SQLite.",
+    "Combien font 12 fois 12 ?",
+    "Traduis en anglais : « Le cache évite les calculs redondants. »"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "manifest_version": 1,
+  "created_at": "2026-10-29T13:39:48+0100",
+  "seedmesh": {
+    "schema_version": 3,
+    "hash_algo": "sha256(NFC+espaces compactés | 0x1F | model | 0x1F | params JSON canonique)",
+    "files_sha256": {
+      "agent.py": "49eedc94225d143362711c973f75850cdef16d5b5588be9a664edb60b3c15d63",
+      "kv_server.py": "2de77d2bfddffc71eeeb2ba3ae9b92177ab8dac8c30215cf71bcb4336585f9eb",
+      "repro_check.py": "4872768753230873f5d793145ca5bfa69620b23c78e08d3da17fe48be3353e71",
+      "seed.py": "f86bfdab3e6dd4c9e41ae9e0b5650af8aa14a7cbc3e6ebfbc8e2121786e72616",
+      "seedmesh_cache.py": "a39b2080fb497a0d2c30115a3325ff578909952ef1a6c89bc19189bf0fd42cbd",
+      "sync.py": "d98d6d8025605e77ddf43c6e650163ef76e3f03eac1be733ec90009f207dcda8"
+    }
+  },
+  "llama_cpp": {
+    "bin": "/opt/seedmesh/llama.cpp/current/llama-completion",
+    "version": "version: 0.7.0-dev (build 11921, commit 7a2e5aba9) | built with GNU 11.4.0 for Linux x86_64"
+  },
+  "model": {
+    "file": "qwen2.5-1.5b-instruct-q4_k_m.gguf",
+    "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+    "size": 1117320736
+  },
+  "sampling": {
+    "seed": 42,
+    "temp": 0.0,
+    "top_p": 0.9,
+    "top_k": 40,
+    "repeat_penalty": 1.1,
+    "ctx": 4096,
+    "n_predict": 512,
+    "threads": 4
+  },
+  "chat_template": true,
+  "n_predict": 64,
+  "system": "Tu es un assistant concis. Réponds en français.",
+  "env": {
+    "os": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "python": "3.13.5",
+    "cpu": {
+      "machine": "x86_64",
+      "nproc": 8,
+      "model": "Intel(R) Xeon(R) Processor",
+      "simd": [
+        "avx",
+        "avx2",
+        "avx512bw",
+        "avx512f",
+        "avx_vnni",
+        "f16c",
+        "fma"
+      ]
+    }
+  },
+  "golden": [
+    {
+      "prompt": "Quelle est la capitale de la France ?",
+      "prompt_hash": "a5455cb6dcb5f69b9a9b372836005e826cec726168b9559dfd88cf50ffdcd856",
+      "output_sha256": "b00dfde7d72d2a35a3ebb3c50d0f156c928a91a23831a66b211e754d60024d76",
+      "output": "La capitale de la France est Paris.",
+      "seconds": 1.89
+    },
+    {
+      "prompt": "Cite trois fleuves de France.",
+      "prompt_hash": "a0a13a70e4535b3919e6b11d16576101786290f9297bb4b63e46724c01160d8b",
+      "output_sha256": "ceb8ca5eebd31d3148560d251eef318c2ef11356d2d4999b4fe154477246323e",
+      "output": "Voici trois fleuves de France :\n\n1. Le Rhône : Il est le plus long des fleuves du pays, avec une longueur totale d'environ 875 km.\n\n2. Le Garonne : Ce fleuve traverse la région méditerranéenne et s'éc",
+      "seconds": 3.55
+    },
+    {
+      "prompt": "Explique en une phrase ce qu'est une base de données SQLite.",
+      "prompt_hash": "b5aa1bea6a767969205fa50b389fd1932be513d036bd5e2a6622b4725e7c09e7",
+      "output_sha256": "b2b7cca861cf837ed528def6079850bf179c1444eef881e85210cb59a0f2af08",
+      "output": "Une base de données SQLite est un système de gestion de données qui stocke et organise les informations sous forme de tableaux, permettant la manipulation et l'interrogation des données à travers des requêtes SQL.",
+      "seconds": 2.84
+    },
+    {
+      "prompt": "Combien font 12 fois 12 ?",
+      "prompt_hash": "77239d78a96da80aca4f5aa98f267920b6671142f780d94bf770c51cf92ba4d5",
+      "output_sha256": "0e392fd9c045137c988aac9c10d6467095a428180ca5b461155bc1921093a8dc",
+      "output": "12 fois 12 fait 144.",
+      "seconds": 1.61
+    },
+    {
+      "prompt": "Traduis en anglais : « Le cache évite les calculs redondants. »",
+      "prompt_hash": "b3d8113deb256a28fc381257a7c6a50274e8287800289ad9ec961056908ee87d",
+      "output_sha256": "2f207829e49a40843e81402e42bdc05fa528d1b7514cfb66a291ab4e9a6dbaf1",
+      "output": "\"The cache avoids redundant calculations.\"",
+      "seconds": 1.16
+    }
+  ]
+}
